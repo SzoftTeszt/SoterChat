@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      <p class="display-1">ClassChat</p>
+      <p class="display-3">ClassChat</p>
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -27,6 +27,8 @@
     <ng-template #en>
       <ion-textarea [(ngModel)]="message.message">       
       </ion-textarea>
+      <ion-button (click)="updateMessage(message)" size="small" shape="round">Save</ion-button>
+      <ion-button (click)="deleteMessage(message)" size="small" shape="round">Delete</ion-button>
     </ng-template>
     </ion-list>
     </div>
