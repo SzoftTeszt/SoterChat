@@ -1,0 +1,25 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+ion-input{
+  
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 9px;
+    font-size: 0.9em !important;
+    }
+ion-select{
+  
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 9px;
+    font-size: 0.9em !important;
+    }
+
+    .card{
+        background: white;
+    }
